@@ -1,0 +1,36 @@
+product_id,product_type_id,name,price
+1,1,Juan Valdez Reserve Cafe - Small,1.85
+2,1,Cafe Mocha - Small,3.45
+3,1,Macchiato - Small,2.89
+4,1,Hot Chocolate - Small,2.15
+5,2,Banana Nut Bread,2.75
+6,2,Cheese Danish,2.45
+7,2,Butter Croissant,2.45
+8,1,Juan Valdez Reserve Cafe - Medium,2.15
+9,1,Juan Valdez Reserve Cafe - Large,2.45
+10,1,Cafe Mocha - Medium,4.15
+11,1,Cafe Mocha - Large,4.65
+12,1,Macchiato - Medium,3.39
+13,1,Macchiato - Large,4.65
+14,1,Hot Chocolate - Medium,2.35
+15,1,Hot Chocolate - Large,2.55
+16,2,Glazed Donut,0.99
+17,2,Bear Claw,2.99
+18,3,Juan Valdez Reserve - 8oz,3.98
+19,3,Juan Valdez Reserve - 12oz,5.99
+20,3,Colombian Best - 8oz,3.24
+21,3,Colombian Best - 16oz,5.78
+22,1,Iced Tea - Small,2.85
+23,1,Iced Tea - Medium,3.25
+24,1,Iced Tea - Large,4.2
+25,1,Hot Tea - Small,1.57
+26,1,Hot Tea - Medium,2.48
+27,1,Hot Tea - Large,2.97
+28,2,Everything Bagel,3.24
+29,2,Onion Bagel,3.18
+30,2,Raisin Bagel,3.18
+31,4,Colombian Coffee Mug,8.78
+32,4,Colombian Coffee Bottle,16.47
+33,4,Hoodie,20.28
+34,2,Soup Bowl,4.53
+35,2,Garden Salad,8.25

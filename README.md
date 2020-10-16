@@ -38,9 +38,16 @@ Sales orders have stored totals to contrast stored vs calculated results.
 Customer passwords are random and in clear text, recorded credit card numbers for transactions
 are in clear text.
 Issues like these offer opportunities to introduce and develop security concepts for databases and
-application programs.
-FYI: there is a line commented out in the tc3-sample-data.sql script that will mask the credit card numbers
-if you want to start out with them masked.
+application programs. There is a line commented out in the tc3-sample-data.sql script that will mask the
+credit card numbers if you want to start out with them masked.
+
+Associative tables are an advanced topic in regards to creating classes in object-relational frameworks such as
+*Hibernate* and *Microsoft Entity Framework*.
+Because of that this database design purposely does not include any associative tables. 
+In case you need an associative table for more advanced application work, mapping customers to products
+they have bought produces a good example.
+The code to create the table and populate may be found in the *tc3-sample-data.db* file.
+
 
 ## Project Setup
 
