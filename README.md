@@ -17,11 +17,12 @@ The core environment is kept simple: products, employees, and customers.
 2020-10-14 - Simplified the database, the original real-world schema was far too complicated for examples.
 
 ## Overview
-There are two versions of the SQLite3 database included, and two SQL scripts.
-The tc3-core.db contains just the schema with employee types populated, built from the tc3-sqlite3-schema.sql script.
 
-tc3-sample-data.db has 25 employees, 100 customers, 35 products, and 300 sales orders, 
-added by running the tc3-sqlite3-sample-data.sql script after creating the tables from tc3-sqlite3-schema.sql.
+There are two versions of the SQLite3 database included, and two SQL scripts.
+The *tc3-sqlite3-core.db* file contains just the schema with employee types populated, built from the *tc3-sqlite3-schema.sql* script.
+
+*tc3-sqlite3-sample-data.db* has 25 employees, 100 customers, 35 products, and 300 sales orders, 
+added by running the *tc3-sqlite3-sample-data.sql* script after creating the tables from *tc3-sqlite3-schema.sql*.
 
 To level-set, this is a fundamental database implementation with customers, employees, and products
 that is intended to be used as a basis for writing server-side and client-side applications.
@@ -46,17 +47,13 @@ Associative tables are an advanced topic in regards to creating classes in objec
 Because of that this database design purposely does not include any associative tables. 
 In case you need an associative table for more advanced application work, mapping customers to products
 they have bought produces a good example.
-The code to create the table and populate may be found in the *tc3-sample-data.db* file.
+The code to create the table and populate may be found in the *tc3-sqlite3-sample-data.sql* file.
 
 
 ## Project Setup
 
-Start with a copy of the tc3-core.db file or tc3-sample-data.db file in your application.
-Or, use the schema and sample SQL files
-to populate a database at runtime, e.g. in a Spring boot test environment.
-
-I recommend using SQLiteStudio ([https://sqlitestudio.pl](https://sqlitestudio.pl)) to explore the database.
-And, there are plenty of other products out there, including SQLite from [https://sqlite.org](https://sqlite.org) itself, for you to choose from.
+Start with a copy of the *tc3-sqlite3-core.db* file or *tc3-sqlite3-sample-data.db* file in your application, feel free to change the name.
+Or, use the schema and sample SQL files to populate a database at runtime, e.g. in a Spring boot test environment.
 
 ## Related Projects
 

@@ -1507,7 +1507,7 @@ update sales_orders set card_number = null, card_expires = null, card_authorized
 
 -- Enable this command to mask the credit card numbers:
 
--- update sales_orders set card_number = substr('********************', 0, length(card_number) - 3) || substr(card_number, length(card_number) - 3, 4);
+-- update sales_orders set card_number = substr('********************', 1, length(card_number) - 4) || substr(card_number, -4, 4);
 
 -- Enable these commands to create an associative table between customers and products and populate it:
 

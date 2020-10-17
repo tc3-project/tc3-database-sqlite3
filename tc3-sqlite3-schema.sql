@@ -11,7 +11,6 @@ drop table if exists employee_types;
 drop table if exists products;
 drop table if exists product_types;
 drop table if exists customers;
-drop table if exists country_codes;
 
 create table customers (
     customer_id integer primary key autoincrement,
@@ -46,7 +45,7 @@ create table employees (
     hire_date date not null,
     first_name varchar(32) not null,
     last_name varchar(32) not null,
-    pay_rate decimal(0, 2) not null,
+    pay_rate decimal(10, 2) not null,
     constraint fk_employees_employee_types foreign key (employee_type_id) references employee_types (employee_type_id) 
 );
 
